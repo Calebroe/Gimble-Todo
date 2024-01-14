@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import './style.css'
-import App from './App.vue'
+import App from './BaseView.vue'
 import router from './router';
 
 // Firebase setup
@@ -8,12 +8,13 @@ import { initializeApp } from 'firebase/app';
 import { Firestore, getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAiPbIRyQ4A2GjWpS8t6yM_xyTbhInRnwo",
-  authDomain: "not-so-jolly-emporium.firebaseapp.com",
-  projectId: "not-so-jolly-emporium",
-  storageBucket: "not-so-jolly-emporium.appspot.com",
-  messagingSenderId: "289922164067",
-  appId: "1:289922164067:web:703f5c13ade5c50735df56"
+  apiKey: "AIzaSyDFxB_DM599rwUe-nDtICzllz0EH4KVm-o",
+  authDomain: "gimble-7a784.firebaseapp.com",
+  projectId: "gimble-7a784",
+  storageBucket: "gimble-7a784.appspot.com",
+  messagingSenderId: "521522350893",
+  appId: "1:521522350893:web:2ee9b8bb62342284c561a4",
+  measurementId: "G-DDP60ZXP78"
 };
 
 const app = createApp(App);

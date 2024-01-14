@@ -1,5 +1,7 @@
 import { createRouter, createWebHistory} from 'vue-router';
 import App from './App.vue'
+import Base from './BaseView.vue'
+import Login from './components/Login.vue'
 
 const routes = [
   {
@@ -11,7 +13,7 @@ const routes = [
     ],
   },
   {
-    path: "/app",
+    /*path: "/app",
     component: App,
     children: [ 
       { path: "", redirect: { name: "home" } }, // Redirect to the 'dashboard' named route
@@ -24,8 +26,8 @@ const routes = [
       { path: '/category/swords', component: Swords, name: 'swords' },
       { path: '/category/clothes', component: ClothesVue, name: 'clothes' },
       { path: '/category/sale', component: Sale, name: 'sale' },
-      // ... any other child routes
-    ],
+      // ... any other child routes 
+    ], */
   },
 ];
 
